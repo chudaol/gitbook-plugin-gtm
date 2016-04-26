@@ -13,5 +13,14 @@
   },
   "engines": {
     "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "token": {
+        "type": "string",
+        "description": "GTM Token",
+        "required": true
+      }
+    }
   }
 }
