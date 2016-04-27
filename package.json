@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-gtm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adds Google Tag Manager code to Gitbook",
   "keywords": ["GTM", "gitbook"],
   "author": {
@@ -12,7 +12,7 @@
     "url" : "https://github.com/chudaol/gitbook-plugin-gtm"
   },
   "engines": {
-    "gitbook": ">1.x.x"
+    "gitbook": ">=3.0.0-pre.0"
   },
   "gitbook": {
     "properties": {
