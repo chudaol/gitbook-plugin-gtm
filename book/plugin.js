@@ -6,7 +6,7 @@ require(["gitbook"], function(gitbook) {
           'event':'virtualPageView',
           'page':{
             'title': gitbook.state.page.title,
-            'url': window.location.href,
+            'url': window.location.pathname,
           }
         });
       }
