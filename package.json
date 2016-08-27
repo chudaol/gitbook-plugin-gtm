@@ -21,6 +21,11 @@
         "type": "string",
         "description": "GTM Token",
         "required": true
+      },
+      "virtualPageViews": {
+        "type": "boolean",
+        "description": "Add virtual pageview events",
+        "required": false
       }
     }
   }
