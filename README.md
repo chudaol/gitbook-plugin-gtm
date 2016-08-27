@@ -52,8 +52,18 @@ dataLayer.push({
 });
 ```
 
-Then you'd setup a variable called `'DataLayer - page title'` (for example) which is a dataLayer value of `page.title` and another variable called `'DataLayer - page url'` which is a dataLayer value of `page.url`.
+You need to setup a trigger called 'GitBook Virtual PageView' (for example) which fires on a custom event called 'virtualPageView'.
 
-You then setup a new Universal Analytics tag which has all your usual pageview settings but with 2 'Fields to Set' (under More Settings). Set `title` to `{{DataLayer - page title}}` and `page` to `{{DataLayer - page url}}`.
+![](https://github.com/luisherranz/gitbook-plugin-gtm/raw/master/trigger.png)
+
+Then setup a variable called `'DataLayer - page title'` (for example) which is a dataLayer value of `page.title` and another variable called `'DataLayer - page url'` which is a dataLayer value of `page.url`.
+
+![](https://github.com/luisherranz/gitbook-plugin-gtm/raw/master/add-variable.png)
+
+Then setup a new Universal Analytics tag which has all your usual pageview settings but with 2 'Fields to Set' (under More Settings). Set `title` to `{{DataLayer - page title}}` and `page` to `{{DataLayer - page url}}`.
+
+![](https://github.com/luisherranz/gitbook-plugin-gtm/raw/master/fields.png)
 
 Finally set the trigger to 'virtualPageView' and you'll find everytime you push the event + data into the datalayer you'll get a pageView fired off with your virtual page's title and virtual url.
+
+![](https://github.com/luisherranz/gitbook-plugin-gtm/raw/master/tag.png)
