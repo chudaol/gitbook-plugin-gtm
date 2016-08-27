@@ -2,6 +2,7 @@
   "name": "gitbook-plugin-gtm",
   "version": "0.0.4",
   "description": "Adds Google Tag Manager code to Gitbook",
+  "main": "index.js",
   "keywords": ["GTM", "gitbook"],
   "author": {
     "name": "Olga Filipova",
