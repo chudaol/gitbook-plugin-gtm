@@ -1,7 +1,8 @@
 {
   "name": "gitbook-plugin-gtm",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Adds Google Tag Manager code to Gitbook",
+  "main": "index.js",
   "keywords": ["GTM", "gitbook"],
   "author": {
     "name": "Olga Filipova",
@@ -20,6 +21,11 @@
         "type": "string",
         "description": "GTM Token",
         "required": true
+      },
+      "virtualPageViews": {
+        "type": "boolean",
+        "description": "Add virtual pageview events",
+        "required": false
       }
     }
   }
