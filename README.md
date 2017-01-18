@@ -1,4 +1,7 @@
 # gitbook-plugin-gtm
+<p>
+  <a href="https://www.npmjs.com/package/gitbook-plugin-gtm"><img src="https://img.shields.io/npm/dt/gitbook-plugin-gtm.svg" alt="Downloads"></a>
+</p>
 Google Tag Manager for Gitbook
 
 ### How to use?
